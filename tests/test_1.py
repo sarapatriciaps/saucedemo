@@ -8,7 +8,7 @@ class Teste1:
     URL = 'https://www.saucedemo.com/'
     @pytest.fixture
     def setup(self):
-        print('######SETUP######')
+        print('\n######SETUP######')
         #instancia do Chrome (controler/driver)
         self.driver = webdriver.Chrome()
 
