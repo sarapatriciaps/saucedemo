@@ -4,7 +4,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-class Teste1:
+class Test1:
     URL = 'https://www.saucedemo.com/'
     @pytest.fixture
     def setup(self):

@@ -8,8 +8,8 @@ from tests.conftest import URL
 from tests.conftest import url_pag_prod
 
 
-class Teste3:
-
+class Test3:
+    # aplicando confitest
     def test_click_login_btn(self, setup):
 
         # instancia do obj driver (conftest)

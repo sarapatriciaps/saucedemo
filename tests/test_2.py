@@ -6,7 +6,7 @@ from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 
 
-class Teste2:
+class Test2:
     URL = 'https://www.saucedemo.com/'
 
     @pytest.fixture
