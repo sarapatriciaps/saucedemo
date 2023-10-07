@@ -1,13 +1,14 @@
 import time
 import pytest
 
-from selenium import webdriver
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from tests.conftest import URL
 from tests.conftest import url_pag_prod
 
 
+# terceiro exercicio com conceitos de reuso/heranca
+# usando setup/yield no conftest
 class Test3:
     # aplicando confitest
     def test_click_login_btn(self, setup):

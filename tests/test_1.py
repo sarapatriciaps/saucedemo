@@ -4,6 +4,9 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+#primeiro exercicio sem conceitos de reuso/heranca/pageObject
+#usando setup/yield
+#criacao do test_click_login_btn
 class Test1:
     URL = 'https://www.saucedemo.com/'
     @pytest.fixture

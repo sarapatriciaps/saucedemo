@@ -6,6 +6,10 @@ from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 
 
+# segundo exercicio sem conceitos de reuso/heranca/pageObject
+# usando setup/yield
+# criacao do test_login_saucedemo
+# usando try excepet para validacao
 class Test2:
     URL = 'https://www.saucedemo.com/'
 

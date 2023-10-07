@@ -2,6 +2,8 @@ from pages.ProductsPage import ProductsPage
 
 
 # aplicando conceito do pageObject
+# implementando LoginPage
+# implementando ProductsPage
 class Test4:
 
     def test_click_login_btn(self, open_browser):
