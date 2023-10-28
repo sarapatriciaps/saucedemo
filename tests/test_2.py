@@ -9,14 +9,14 @@ from selenium.webdriver.common.by import By
 # segundo exercicio sem conceitos de reuso/heranca/pageObject
 # usando setup/yield
 # criacao do test_login_saucedemo
-# usando try excepet para validacao
+# usando try except para validacao
 class Test2:
     URL = 'https://www.saucedemo.com/'
 
     @pytest.fixture
     def setup(self):
         print('\n######SETUP######')
-        # instancia do Chrome (controler/driver)
+        # instancia do Chrome (controller/driver)
         self.driver = webdriver.Chrome()
 
         # executar browser e acessar URL
